@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@600;700&display=swap');
+
+@layer components {
+    .item {
+        @apply border-[16px] h-32 w-32 p-2 flex items-center justify-center rounded-full bg-white
+    }
+    .modal {
+        @apply z-[100] absolute top-0 left-0 h-[100vh] w-full bg-transparent/50 flex justify-center items-center
+    }
+}
