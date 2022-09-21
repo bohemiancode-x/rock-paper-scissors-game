@@ -6,7 +6,7 @@
 
 @layer components {
     .item {
-        @apply border-[16px] h-32 w-32 p-2 flex items-center justify-center rounded-full bg-white
+        @apply border-[16px] h-40 w-40 p-2 flex items-center justify-center rounded-full bg-white
     }
     .modal {
         @apply z-[100] absolute top-0 left-0 h-[100vh] w-full bg-transparent/50 flex justify-center items-center
