@@ -11,4 +11,19 @@
     .modal {
         @apply z-[100] absolute top-0 left-0 h-[100vh] w-full bg-transparent/50 flex justify-center items-center
     }
+    .button {
+        @apply bg-white text-sm px-9 py-2 rounded-lg tracking-widest
+    }
+    .win {
+        @apply shadow-3xl
+    }
+    .paper {
+        @apply border-paper
+    }
+    .rock {
+        @apply border-rock
+    }
+    .scissors {
+        @apply border-scissors
+    }
 }
