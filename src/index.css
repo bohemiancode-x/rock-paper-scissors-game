@@ -6,17 +6,21 @@
 
 @layer components {
     .item {
-        @apply border-[16px] h-40 w-40 p-2 flex items-center justify-center rounded-full bg-white
+        @apply border-[16px] h-32 w-32 md:h-40 md:w-40 p-2 flex items-center justify-center rounded-full bg-white hover:scale-105 ease-in duration-75
     }
     .modal {
         @apply z-[100] absolute top-0 left-0 h-[100vh] w-full bg-transparent/50 flex justify-center items-center
     }
     .button {
-        @apply bg-white text-sm px-9 py-2 rounded-lg tracking-widest
+        @apply bg-white text-xl md:text-sm px-9 py-2 rounded-lg tracking-widest
     }
     .win {
-        @apply shadow-3xl
+        @apply shadow-3xl md:shadow-4xl 
     }
+    .lose {
+        @apply z-[1]
+    }
+    
     .paper {
         @apply border-paper
     }
