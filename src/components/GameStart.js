@@ -7,7 +7,7 @@ export default function GameStart({ playGame }) {
   return (
     <div>
         <div className=' justify-center bg-triangle bg-no-repeat bg-center h-[40vh] mx-3'>
-            <div className='place-items-center grid grid-flow-row-dense grid-cols-2 gap-10 z-20 md:w-[50%] m-auto'>
+            <div className='place-items-center grid grid-flow-row-dense grid-cols-2 gap-10 z-20 md:w-[50%] lg:w-[30%] m-auto'>
                 <div onClick={() => playGame('paper')} className=' item border-[#4865f4] cursor-pointer'>
                     <img className='h-14 w-14' src={Paper} alt="paper" />
                 </div>
