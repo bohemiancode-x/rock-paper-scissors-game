@@ -2,7 +2,7 @@ import logo from '../assets/images/logo.svg'
 
 export default function Scoreboard({ score }) {
   return (
-    <div className=' pt-10 md:pt-20'>
+    <div className=' pt-6 md:pt-20'>
         <div className='flex border-4 border-white/20 p-3 rounded-xl justify-between w-[90%] md:w-[50%] m-auto'>
             <div className='flex items-center'>
                 <img className='h-[75%] md:h-[100%]' src={logo} alt="logo" />
